@@ -8,35 +8,22 @@ other students without sharing code.
 
 ### For VirtualBox users
 
-On your host machine (not the VM), go to the course assignments directory:
+Make sure to run ```vagrant halt``` on CS513_PA1 before proceeding with this assignment. 
 
+If you installed vagrant and VirtualBox from PA1, go to the CS513 folder
 ```
-$ cd COS461-Public/assignments
+$ cd assignments
 ```
  Pull the latest update from Github.
 ```
 $ git pull
 ```
 
-It is not necessary to reprovision your VM. You can just `vagrant ssh` into 
-your VM if it's already provisioned. However, if you see that the Vagrantfile 
-is updated when git pulling, you will need to reprovision your VM to install 
-packages for this assignment, as below:
+Now you need to run vagrant up and ssh again, as we updated for Jupyter support.
 ```
-$ vagrant reload --provision
+$ vagrant up
+$ vagrant ssh
 ```
-
-### (For Apple Silicon users)
-
-`ssh` into your UTM VM, pull the latest update from Github:
-```
-$ git pull
-```
-
-If you see that the `setup.sh` file is updated, you can either apply the diff 
-manually or delete your current VM (make sure your progress is backed up on 
-your host machine) and follow the setup process in assignment1 README to 
-reflect the changes. If not updated, nothing needs to be done for your VM.
 
 ## Starting up the Jupyter Notebook Server
 
