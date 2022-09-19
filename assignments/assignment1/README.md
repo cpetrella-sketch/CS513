@@ -1,16 +1,12 @@
 # Assignment 1: Virtual Machine Setup & Socket Programming
 
-### Due Friday September 24 at 11:59 pm EST
-
-Welcome to COS 461: Computer Networks! Through this and the following
+Through this and the following
 assignments, you will gain hands-on experience with real-world network
 programming.  You will write a program that allows your computer to communicate
 with another, be it across the room or across the world. You will program a
 router to deliver information to the right destination in a network with
 thousands of nodes.  You will learn how decisions made by protocol designers
-and network administrators affect Internet performance.  You will analyze data
-from Princeton's own network to detect security threats and learn how to
-prevent them.
+and network administrators affect Internet performance.
 
 The programming assignments are designed to be challenging but manageable in
 the time allotted. If you have questions, want to suggest clarifications, or
@@ -24,8 +20,6 @@ other students without sharing code.
 Let's get started!
 
 ## Part A: Set Up Virtual Machine
-
-**Apple Silicon Mac users: please go [here](https://github.com/PrincetonUniversity/COS461-Public/tree/master/assignments/assignment1/utm.md) for this part**
 
 The first part of this assignment is to set up the virtual machine (VM) you
 will use for the rest of the course. This will make it easy to install all
@@ -119,10 +113,10 @@ Use default options and uncheck "Launch Xming" at the end.
 Open your terminal (use the one mentioned in step 3 if using Windows) and `cd`
 to wherever you want to keep files for this course on your computer.  
 
-Run `git clone https://github.com/PrincetonUniversity/COS461-Public` to
+Run `git clone https://github.com/bcarpent/CPS 513` to
 download the course files from GitHub.
 
-`cd COS461-Public/assignments` to enter the course assignment directory.
+`cd CS513/assignments` to enter the course assignment directory.
 
 ### Step 6: Provision virtual machine using Vagrant
 
@@ -158,7 +152,7 @@ commands should be no slower. It is also not an alternative to the initial
 
 Run `vagrant ssh` from your terminal. This is the command you will use every
 time you want to access the VM. If it works, your terminal prompt will change
-to `vagrant@cos461:~$`. All further commands will execute on the VM. You can
+to `vagrant@cs513:~$`. All further commands will execute on the VM. You can
 then run `cd /vagrant` to get to the course directory that's shared between
 your regular OS and the VM.
 
@@ -350,7 +344,7 @@ attempting to send several different messages between all 4 combinations of
 your clients and servers (C client to C server, C client to Python/Go server,
 etc.). The messages are the following:
 
-0. The short message "Go Tigers!\n"
+0. The short message "Hello world!\n"
 0. A long, randomly generated alphanumeric message
 0. A long, randomly generated binary message
 0. Several short messages sent sequentially from separate clients to one server
@@ -443,8 +437,7 @@ on Piazza or see an instructor during office hours.
 
 ### Submission and grading
 
-Submit the assignment by uploading your modified client and server files to CS
-TigerFile here: [Programming Assignment 1](https://tigerfile.cs.princeton.edu/COS461_F2021/Programming_Assignment_1).
+Submit the assignment by uploading your modified client and server files to Canvas.
 
 We will grade your assignments by running the `test_client_server.sh` script
 and additional tests with large messages, multiple simultaneous clients, etc.
