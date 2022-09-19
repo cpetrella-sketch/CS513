@@ -82,10 +82,9 @@ tutorials).
 
 ## Submission
 
-Submit your completed `Assignment2_Notebook.ipynb` file on TigerFile here: 
-[Programming Assignment 2](https://tigerfile.cs.princeton.edu/COS461_F2021/Programming_Assignment_2).
+Submit your completed `Assignment2_Notebook.ipynb` file on Canvas. 
 
-Remember to put your name and netid in the marked location at the top of the
+Remember to put your name and id in the marked location at the top of the
 file.
 #### Acknowledgement
 This assignment is modeled after a [similar assignment](http://web.stanford.edu/class/cs244/pa1.html) at Stanford University.
