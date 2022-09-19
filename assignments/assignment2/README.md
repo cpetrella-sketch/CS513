@@ -1,7 +1,5 @@
 # Assignment 2: TCP Congestion Control and Bufferbloat
 
-### Due Friday October 8 at 11:59 pm EST
-
 This is not a group assignment. You are not allowed to copy or look at code
 from other students. However, you are welcome to discuss the assignments with
 other students without sharing code.
