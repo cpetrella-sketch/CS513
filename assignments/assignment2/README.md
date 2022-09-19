@@ -10,8 +10,9 @@ other students without sharing code.
 
 Make sure to run ```vagrant halt``` on CS513_PA1 before proceeding with this assignment. 
 
-If you installed vagrant and VirtualBox from PA1, go to the CS513 folder
+If you installed vagrant and VirtualBox in PA1, go to the CS513 folder.
 ```
+$ git clone https://github.com/bcarpent/CS513.git
 $ cd assignments
 ```
  Pull the latest update from Github.
@@ -19,7 +20,7 @@ $ cd assignments
 $ git pull
 ```
 
-Now you need to run vagrant up and ssh again, as we updated for Jupyter support.
+Now you need to run vagrant up and ssh again, as the Vagrantfile has been updated for Jupyter support.
 ```
 $ vagrant up
 $ vagrant ssh
