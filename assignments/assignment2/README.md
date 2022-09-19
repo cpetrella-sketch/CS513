@@ -8,7 +8,7 @@ other students without sharing code.
 
 ### For VirtualBox users
 
-Make sure to run ```vagrant halt``` on any CS513_PA1 before proceeding with this assignment. 
+Make sure to run ```vagrant halt``` on CS513_PA1 before proceeding with this assignment. 
 
 If you installed vagrant and VirtualBox from PA1, go to the CS513 folder
 ```
