@@ -4,7 +4,6 @@
 ##    test_client_server
 ##
 ## DESCRIPTION
-##    COS 461 test script for assignment 1.
 ##    Runs 5 different tests between each possible client/server combination.
 
 # Check correct number of arguments
@@ -85,7 +84,7 @@ function test {
 function all-tests {
 
   printf "\n$testNum. TEST SHORT MESSAGE\n"
-  printf "Go Tigers!\n" > test_message.txt
+  printf "Hello world!\n" > test_message.txt
   test "$1" "$2" $3 1 1
   ((testNum++))
 
