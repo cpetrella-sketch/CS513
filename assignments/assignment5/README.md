@@ -7,7 +7,7 @@ know one of the most popular application protocols on the Internet -- the
 Hypertext Transfer Protocol (HTTP). When you're done with the assignment, you
 should be able to configure Firefox to use your  proxy implementation.
 
-You may work in groups of 1-3. Please specify your teammates' name at 
+You may work in groups of 1-3. Please specify your teammates' names at 
 the beginning of http_proxy.go and http_proxy_DNS.go.
 
 ## Introduction: The Hypertext Transfer Protocol
