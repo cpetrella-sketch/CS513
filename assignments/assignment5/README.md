@@ -1,6 +1,4 @@
-# Assignment 5: HTTP Proxy
-
-### Due Wednesday November 17 at 11:59 pm EST
+# Programming Assignment 3: HTTP Proxy
 
 In this assignment, you will implement a web proxy that passes requests and
 data between multiple web clients and web servers. The proxy should support
