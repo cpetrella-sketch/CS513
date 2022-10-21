@@ -141,7 +141,7 @@ Why use a proxy? There are a few possible reasons:
 On your host machine (not the VM), go to the course assignments directory:
 
 ```
-$ cd COS461-Public/assignments
+$ cd CS513/assignments
 ```
  Pull the latest update from Github.
 ```
