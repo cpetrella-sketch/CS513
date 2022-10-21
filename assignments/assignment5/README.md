@@ -9,7 +9,7 @@ know one of the most popular application protocols on the Internet -- the
 Hypertext Transfer Protocol (HTTP). When you're done with the assignment, you
 should be able to configure Firefox to use your  proxy implementation.
 
-You may work in groups of 1-2. Please specify your teammates' name and NETID at 
+You may work in groups of 1-3. Please specify your teammates' name at 
 the beginning of http_proxy.go and http_proxy_DNS.go.
 
 ## Introduction: The Hypertext Transfer Protocol
@@ -419,10 +419,9 @@ surprised if it is not noticeable.
 
 ## Submission & Grading
 
-You should submit your `http_proxy.go` and `http_proxy_DNS.go` files to the CS
-TigerFile here: [Programming Assignment 5](https://tigerfile.cs.princeton.edu/COS461_F2021/Programming_Assignment_5)
+You should submit your `http_proxy.go` and `http_proxy_DNS.go` files to Canvas.
 
-**Put your and your teammate's names and netids in comments at the top of both submitted files.**
+**Put your and your teammate's names in comments at the top of both submitted files.**
 
 We will test your proxies by running the `test_proxy.py` and
 `test_proxy_conc.py` scripts and by performing a few additional tests with
