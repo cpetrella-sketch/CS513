@@ -217,7 +217,7 @@ address, or that clients will be coming from a pre-determined IP address.
 
 Your proxy should listen on the port specified from the command line and wait
 for incoming client connections. See the linked Go sockets documentation from
-Assignment 1 for more on socket programming in Go.   Client requests should be
+Assignment 1 for more on socket programming in Go. Client requests should be
 handled concurrently, with a new
 [goroutine](https://tour.golang.org/concurrency/1) spawned to handle each
 request.
