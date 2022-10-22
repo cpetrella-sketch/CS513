@@ -203,7 +203,7 @@ various server and client functions in `http`). This implementation
 is approximately 130 lines.  How you ultimately decide to combine the `net` and
 `http` libraries to implement your proxy is up to you. Your grade will not be
 affected by implementation choices that do not affect the behavior of your
-proxy. If you reference code found on the Internet, you must reference it in the comments.
+proxy. You are encouraged to write your own code; however, if you use code found on the Internet, you must reference it in the comments.
 
 Your proxy should compile without errors using the provided
 `Makefile`.  Compilation should produce a binary called `http_proxy` that takes
