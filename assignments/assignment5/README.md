@@ -196,16 +196,16 @@ operate at the HTTP application layer.  The `http` library functions are more
 specific to HTTP, potentially letting you use fewer lines of code, but they are
 less flexible (and the documentation is more difficult to understand). 
 
-Our reference solution uses the `Request` type and associated functions from
-the `http` library for parsing and modifying HTTP requests, but uses the
+One approach is to use the `Request` type and associated functions from
+the `http` library for parsing and modifying HTTP requests, and use the
 `Listen()`, `Accept()`, and `Dial()` functions from `net` (rather than the
-various server and client functions in `http`). This reference implementation
+various server and client functions in `http`). This implementation
 is approximately 130 lines.  How you ultimately decide to combine the `net` and
 `http` libraries to implement your proxy is up to you. Your grade will not be
 affected by implementation choices that do not affect the behavior of your
-proxy.
+proxy. If you reference code found on the Internet, you must reference it in the comments.
 
-Your proxy should compile without errors on the course VM using the provided
+Your proxy should compile without errors using the provided
 `Makefile`.  Compilation should produce a binary called `http_proxy` that takes
 as its first argument a port to listen from. Don't use a hard-coded port
 number.
