@@ -8,9 +8,9 @@ other students without sharing code.
 
 Let's get started!
 
-## For VirtualBox users
+## For existing VirtualBox and Vagrant users
 
-If you already installed vagrant and VirtualBox, go to the CS513 folder.
+If you already installed vagrant and VirtualBox, go to the CS513 folder. You can likely skip most of PART A below.
 ```
 $ git clone https://github.com/bcarpent/CS513.git
 $ cd assignments
