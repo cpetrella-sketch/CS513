@@ -8,6 +8,24 @@ other students without sharing code.
 
 Let's get started!
 
+## For VirtualBox users
+
+If you already installed vagrant and VirtualBox, go to the CS513 folder.
+```
+$ git clone https://github.com/bcarpent/CS513.git
+$ cd assignments
+```
+ Pull the latest update from Github.
+```
+$ git pull
+```
+
+Now you need to run vagrant up and ssh again, as the Vagrantfile has been updated for Jupyter support.
+```
+$ vagrant up
+$ vagrant ssh
+```
+
 ## PART A: Set Up Virtual Machine
 
 The first part of this assignment is to set up the virtual machine (VM) you
@@ -102,7 +120,7 @@ Use default options and uncheck "Launch Xming" at the end.
 Open your terminal (use the one mentioned in step 3 if using Windows) and `cd`
 to wherever you want to keep files for this course on your computer.  
 
-Run `git clone https://github.com/bcarpent/CPS 513` to
+Run `git clone https://github.com/bcarpent/CS513` to
 download the course files from GitHub.
 
 `cd CS513/assignments` to enter the course assignment directory.
