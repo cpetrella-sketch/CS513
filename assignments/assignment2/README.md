@@ -239,6 +239,3 @@ tutorials).
 Submit your completed `Assignment2_Notebook.ipynb` file on Canvas along with screenshots of all graphs presented.
 
 Remember to put your name and id in the marked location at the top of the file.
-
-#### Acknowledgement
-This assignment is modeled after a [similar assignment](http://web.stanford.edu/class/cs244/pa1.html) at Stanford University.
