@@ -194,8 +194,12 @@ doing this should only be necessary if you want to edit shell scripts.
 
 ## PART B: Starting up the Jupyter Notebook Server
 
-In the VM, run the command `sudo jupyter notebook &`. This will
-start a new Jupyter notebook server in the background. Even though it is
+In the VM, run the following commands:
+
+`pip install jupyter[notebook] ipywidgets==7.5`
+`sudo python -m notebook`
+
+This will start a new Jupyter notebook server in the background. Even though it is
 running in the background, it will sometimes print informative messages to the
 terminal. You can press Enter each time you get a message to get the shell
 prompt back. To shut down the notebook, run `fg` then press Control-C twice
