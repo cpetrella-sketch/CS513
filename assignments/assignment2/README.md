@@ -197,6 +197,7 @@ doing this should only be necessary if you want to edit shell scripts.
 In the VM, run the following commands:
 
 `pip install jupyter[notebook] ipywidgets==7.5`
+
 `sudo python -m notebook`
 
 This will start a new Jupyter notebook server in the background. Even though it is
