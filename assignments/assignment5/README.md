@@ -1,4 +1,4 @@
-# Programming Assignment 3: HTTP Proxy
+# Programming Assignment 2: HTTP Proxy
 
 In this assignment, you will implement a web proxy that passes requests and
 data between multiple web clients and web servers. The proxy should support
