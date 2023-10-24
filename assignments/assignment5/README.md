@@ -421,6 +421,8 @@ You should submit your `http_proxy.go` and `http_proxy_DNS.go` files to Canvas.
 
 **Put your and your teammate's names in comments at the top of both submitted files.**
 
+Your code must be your own work (cannot be plagiarized) and must be well documented with ample comments.
+
 We will test your proxies by running the `test_proxy.py` and
 `test_proxy_conc.py` scripts and by performing a few additional tests with
 different websites and numbers of concurrent clients. 
