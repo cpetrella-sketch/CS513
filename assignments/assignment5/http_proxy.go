@@ -14,10 +14,12 @@
  )
 
  func handler(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[1:])
+    fmt.Printf("got / request\n")
+	io.WriteString(w, "This is my website!\n")
  }
 
  func main() {
+	port := os.Args[1]
 	http.HandleFunc("/", handler)
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(port, nil))//Note: change port number to be not hard coded.
  }
