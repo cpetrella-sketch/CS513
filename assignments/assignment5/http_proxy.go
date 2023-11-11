@@ -15,6 +15,7 @@
  )
 
  func handler(w http.ResponseWriter, r *http.Request) {
+	fmt.Println("There!")//debugger statement
 	destination := r.URL.String()
 	response, err := http.Get(destination)
 	if err != nil {
@@ -27,12 +28,13 @@
 		io.WriteString(w, err.Error())
 		return
 	}
-	io.WriteString(w, "This is my website!\n")
+	io.WriteString(w, "This is my website!\n")//This line was copied from tutorial, leaving it in for debugging.
  }
 
  func main() {
 	port := os.Args[1]
 	http.HandleFunc("/", handler)
+	fmt.Println(port)//making sure port got passed in
 	err := (http.ListenAndServe(":"+port, nil))
 	if err != nil {
 		fmt.Println("Connection error")
