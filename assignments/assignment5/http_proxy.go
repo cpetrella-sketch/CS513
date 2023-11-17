@@ -8,6 +8,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 	"io"
 	"net/http"
@@ -16,10 +17,16 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	destination := r.URL.String()
-	fmt.Println(destination) //debugger statement
-	response, err := http.Get(destination)
-	fmt.Println((response.Status))
+	fmt.Println(destination) //Making sure the URL was passed in clearly.
+	client := &http.Client{
+		CheckRedirect: func(req *http.Request, via []*http.Request) error {
+			return errors.New("net/http: use last response")
+		},
+	} //stop redirects from returning 200
+	response, err := client.Get(destination)
+	fmt.Println((response.Status)) //Double checking the exact status code
 	if err != nil {
+		w.WriteHeader(response.StatusCode)
 		io.WriteString(w, err.Error())
 		return
 	}
