@@ -28,7 +28,6 @@
 		io.WriteString(w, err.Error())
 		return
 	}
-	io.WriteString(w, "This is my website!\n")//This line was copied from tutorial, leaving it in for debugging.
  }
 
  func main() {
